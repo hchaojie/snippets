@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="4dip" >
+    
+    <FrameLayout 
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#cccccc"
+        android:padding="4dp"
+        >
+        
+    </FrameLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+    <cn.hchaojie.snippets.view.pageindicator.TabContainer
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_1"
+            android:gravity="center_horizontal"
+            android:text="首页" >
+        </TextView>
+        
+		<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_2"
+            android:gravity="center_horizontal"
+            android:text="消息" >
+        </TextView>
+        
+		<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_3"
+            android:gravity="center_horizontal"
+            android:text="评论" >
+        </TextView>
+        
+		<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_4"
+            android:gravity="center_horizontal"
+            android:text="广场" >
+        </TextView>				
+
+		<TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/tab_5"
+            android:gravity="center_horizontal"
+            android:text="更多" >
+        </TextView>			
+    </cn.hchaojie.snippets.view.pageindicator.TabContainer>
+
+</LinearLayout>

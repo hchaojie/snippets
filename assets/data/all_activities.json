@@ -1,0 +1,85 @@
+{
+	'activities': [
+		{
+			'type': 'call',
+			'who': 'James',
+			'pic_url': 'icons/pic_1.jpg',
+			'content': '+8613312345888',
+			'time': '2011-12-14 11:12:35'
+		},
+		
+		{
+			'type': 'message',
+			'who': 'Lucy',
+			'pic_url': 'icons/pic_2.jpg',
+			'content': 'hello @buddy, #you &amp; me, 4 is < than 5. 4 is &gt; 2 but &lt; 5 when will get off working? Meeting at noon.',
+			'time': '2011-12-14 11:43:35'
+		}
+		
+		,
+		
+		{
+			'type': 'facebook',
+			'who': 'Ciro',
+			'pic_url': 'icons/pic_3.jpg',
+			'content': '@Beautiful @sunshine, http://t.cn anyone #out door this afternoon?',
+			'time': '2011-12-14 14:22:35'
+		},
+		
+		{
+			'type': 'twitter',
+			'who': 'Yann',
+			'pic_url': 'icons/pic_4.jpg',
+			'content': 'Double Connect+ points in the month of Octorber. Invite a friend and get 500 points! Look at the Connect+ store for rewards!',
+			'time': '2011-12-14 19:05:35'
+		},
+		
+		{
+			'type': 'call',
+			'who': 'Hier',
+			'pic_url': 'icons/pic_5.jpg',
+			'content': 'Double Connect+ points in the month of Octorber. Invite a friend and get 500 points! Look at the Connect+ store for rewards!',
+			'time': '2011-12-14 19:05:35'
+		},
+		
+		{
+			'type': 'email',
+			'who': 'Hunter',
+			'pic_url': 'icons/pic_6.jpg',
+			'content': 'Double Connect+ points in the month of Octorber. Invite a friend and get 500 points! Look at the Connect+ store for rewards!',
+			'time': '2011-12-14 19:05:35'
+		},
+		
+		{
+			'type': 'email',
+			'who': 'Police',
+			'pic_url': 'icons/pic_7.jpg',
+			'content': 'Double Connect+ points in the month of Octorber. Invite a friend and get 500 points! Look at the Connect+ store for rewards!',
+			'time': '2011-12-14 19:05:35'
+		},
+		
+		{
+			'type': 'email',
+			'who': 'ZhaoXin',
+			'pic_url': 'icons/pic_8.jpg',
+			'content': '公安部资料显示，2009年以来，公安部先后在京集中培训了3000多名县级和500名市级公安局长，近1000名省市两级公安机关纪委书记、政治部主任，1500余名省、市两级公安机关信息化建设等方面的领导和业务部门主要负责人，以及6000余名基层一线执法骨干。',
+			'time': '2011-12-14 19:05:35'
+		},
+		
+		{
+			'type': 'email',
+			'who': 'Lori',
+			'pic_url': 'icons/pic_9.jpg',
+			'content': ' Así que `he cambiado el código, ahora se utiliza la función nativa de Paint.breakText Braek texto en las líneas (pero se rompe en medio de una palabra). Si usted necesita tener versión "rápida" ',
+			'time': '2011-12-14 19:05:35'
+		},
+		
+		{
+			'type': 'email',
+			'who': 'Diamond',
+			'pic_url': 'icons/pic_10.jpg',
+			'content': 'Double Connect+ points in the month of Octorber. Invite a friend and get 500 points! Look at the Connect+ store for rewards!',
+			'time': '2011-12-14 19:05:35'
+		}
+	]
+}

@@ -1,0 +1,31 @@
+Special kudos to our intrepid installer -- thank you Paul!
+
+do provide any assistance you can to get them up to speed on our 
+various projects, products, and processes!
+
+Your feedback regarding this process is more than welcome.
+That’s fine with me.
+
+excuse my brevity - i'm sure you all get the point
+
+I don't believe that #1 is a bug. 
+The way we designed the permissions system for EWS is that permissions control *what* the user can do, 
+and scope controls *where* they can do it. For user administration, 
+    we said that if a user has the permissions to create users, 
+    they can do so at their scope and below. 
+    So HO users can create users at the HO level, and everywhere below, 
+    territory users can create territory users within their own territory and the exhibitors/theaters below them. 
+    It follows that theater users (with user administration rights) can create other users in their theater. 
+    It would be a bug if thor_de_filmpalast_leipzig could create users anywhere other than in the "Cinestar - der Filmpalast Leipzig" theater. 
+    But that is not the case. 
+
+If you would prefer that no theater users can administer users, simply ensure that there are no roles with user admin rights, that are "tiered" to theaters.
+道光癸卯闰秋，秋芙来归。漏三下，臧获皆寝。秋芙绾堕马髻，衣红绡之衣，灯花影中，欢笑弥畅，历言小年嬉戏之事。渐及诗词，余苦水舌挢不能下，因忆昔年有传闻其《初冬诗》云“雪压层檐重，风欺半臂单”，余初疑为阿翘假托，至是始信。于时桂帐虫飞，倦不成寐。盆中素馨，香气滃然，流袭枕簟。秋芙请联句，以观余才，余亦欲试秋芙之诗，遂欣然诺之。余首赋云：“翠被鸳鸯夜，”秋芙续云：“红云织蟔楼。花迎纱幔月，”余次续云：“入觉枕函秋。”犹欲再续，而檐月暧斜，邻钟徐动，户外小鬟已啁啁来促晓妆矣。余乃阁笔而起。
+    数日不入巢园，阴廊之间，渐有苔色，因感赋二绝云：“一觉红蕤梦，朝记记不真。昨宵风露重，忆否忍寒人？”“镜槛无人拂，房栊久不开。欲言相忆处，户下有青苔。”时秋芙归宁三十五日矣。群季青绫，兴应不浅，亦忆夜深有人，尚徘徊风露下否？
+    秋芙之琴，半出余授。入秋以来，因病废辍。既起，指法渐疏，强为理习，乃与弹于夕阳红半楼上。调弦既久，高不成音，再调则当五徽而绝。秋芙索上新弦，忽烟雾迷空，窗纸欲黑。下楼视之，知雏鬟不戒，火延幔帷。童仆扑之始灭。乃知猝断之弦，其谶不远，况五，火数也，应徽而绝，琴其语我乎？
+    秋芙以金盆捣戎葵叶汁，杂于云母之粉，用纸拖染，其色蔚绿，虽澄心之制，无以过之。曾为余录《西湖百咏》，惜为郭季虎携去。季虎为余题《秋林著书图》云：“诗成不用苔笺写，笑索兰闺手细钞”，即指此也。秋芙向不工书，自游魏滋伯，吴黟山两丈之门，始学为晋唐格。惜病后目力较差，不能常事笔墨。然间作数字，犹是秀媚可人。
+    夏夜苦热，秋芙约游理安。甫出门，雷声殷殷，狂飙疾作。仆夫请回车，余以游兴方炽，强趣之行。永及南屏，而黑云四垂，山川瞑合。俄见白光如练，出独秀峰顶，经天丈余，雨下如注，乃止大松树下。雨霁更行，觉竹风骚骚，万翠浓滴，两山如残妆美人，蹙黛垂眉，秀色可餐。余与秋芙且观且行，不知衣袂之既湿也。时月查开士主讲理安寺席，留饭伊蒲，并以所绘白莲画帧见贻。秋芙题诗其上，有“空到色香何有相，若离文字岂能禅”之句。茶话既洽，复由杨梅坞至石屋洞，洞中乱石排拱，几察俨然。秋芙安琴磐磴，鼓《平沙落雁》之操，归云滃然，涧水互答，此时相对，几忘我两人犹生尘世间也。俄而残暑渐收，暝烟四起，回车里许，已月上苏堤杨柳梢矣。是日，屋漏床前，窗户皆湿，童仆以重门锁扃，未获入视。俟归，已蝶帐蟁橱，半为泽国，呼小婢以筠笼熨之，五鼓始睡。
+    秋芙喜绘牡丹，而下笔颇自矜重。嗣从老友杨渚白游，活色生香，遂入南田之室。时同人中寓余草堂及晨夕过从者，有钱文涛、费子苕，严文樵、焦仲梅诸人，品叶评花，弥日不倦。既而钱去杨死，焦严诸人各归故乡。秋芙亦以盐米事烦，弃置笔墨。惟余纨扇一枚，犹为诸人合画之笔，精神意态，不减当年，暇日观之，不胜宾朋零落之感。
+    桃花为风雨所摧，零落池上，秋芙拾花瓣砌字，作《谒金门》词云：“春过半，花命也如春短。一夜落红吹渐漫，风狂春不管。”“春”字未成，而东风骤来，飘散满地，秋芙怅然。余曰，“此真个‘风狂春不管’矣!”相与一笑而罢。
+    余旧蓄一绿鹦鹉，字曰“翠娘”，呼之辄应。所诵诗句，向为侍儿秀绢所教。秀绢既嫁，翠娘饮啄常失时，日渐憔悴。一日，余起盥沐，闻帘外作细语声，恍如秀娟声吻，惊起视之，则翠娘也。杨枝去数月矣，翠娘有知，亦忆教诗人否？
+    秋芙每谓余云：  “人生百年，梦寐居半，愁病居半，襁褓垂老之日又居半，所仅存者，十之一二耳，况我辈蒲柳之质，犹未必百年者乎!庾兰成云：一月欢娱，得四五六日。想亦自解语耳。”斯言信然。

@@ -1,0 +1,47 @@
+<s>
+
+    <rfi>
+        <homeserver>
+            <id>
+101
+            </id>
+
+            <host>
+psomozufe01.cpth.ie
+            </host>
+
+            <path>
+/dcmxb/DCMX
+            </path>
+
+            <port>
+18080
+            </port>
+
+            <uhost>
+psomozufe01.cpth.ie
+            </uhost>
+
+            <upath>
+/dcmxb/FILE/u
+            </upath>
+
+            <uport>
+18080
+            </uport>
+
+            <dhost>
+psomozufe01.cpth.ie
+            </dhost>
+
+            <dpath>
+/dcmxb/FILE/d
+            </dpath>
+
+            <dport>
+18080
+            </dport>
+        </homeserver>
+    </rfi>
+
+</s>

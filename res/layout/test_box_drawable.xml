@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- view1 goes on top -->
+    <TextView
+        android:background="@drawable/corner_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="first line text"/>
+
+    <!-- view2 goes in the middle -->
+    <TextView
+        android:background="@drawable/gradient_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sencond line text at middle"/>
+
+    <!-- view3 goes on the bottom -->
+    <TextView
+        android:background="@drawable/corner_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bottom text"/>
+
+    
+    <Button android:text="next" android:onClick="nextClicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

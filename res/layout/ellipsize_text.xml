@@ -1,0 +1,8 @@
+<cn.hchaojie.snippets.temp.EllipsizingTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txt_activity_content"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:ellipsize="end"
+    android:singleLine="false"
+    android:textColor="@color/font_black"
+    android:textSize="@dimen/font_size_normal" />

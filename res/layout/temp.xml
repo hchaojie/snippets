@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#F6F6F6"
+	android:id="@+id/post_container"
+	android:orientation="vertical">
+	
+	<RelativeLayout
+	    android:id="@+id/post_details"
+	    android:background="#FFF"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:padding="4dp">
+
+		<ImageView android:id="@+id/post_avatar" 
+		    android:layout_width="60dp"
+		    android:layout_height="60dp" />
+		
+	    <LinearLayout android:id="@+id/post_meta"
+	        android:layout_alignParentRight="true"
+	        android:orientation="horizontal"
+	        android:layout_toRightOf="@id/post_avatar"
+	        android:gravity="center_vertical"
+	        android:padding="5dp"
+	        android:layout_width="0dp"
+		    android:layout_height="wrap_content">
+		    
+	        <TextView android:id="@+id/post_author"
+  		    	android:textSize="16dp"
+  		    	android:textStyle="bold"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content" />
+	        
+	        <TextView android:id="@+id/post_time"
+  		    	android:textSize="12dp"
+	        	android:layout_width="0dp"
+	        	android:layout_weight="1"
+	        	android:layout_margin="4dp"
+	        	android:gravity="right"
+	        	android:layout_height="wrap_content" />
+	        
+	        <ImageView android:id="@+id/icon_sn_type"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	        
+	    <LinearLayout android:id="@+id/post_content"
+	        android:layout_toRightOf="@id/post_avatar"
+	        android:layout_alignParentRight="true"
+	        android:orientation="horizontal"
+	        android:padding="5dp"
+	        android:layout_below="@id/post_meta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+	            
+	        <ImageView android:id="@+id/post_thumbnail"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+            android:scaleType="fitCenter" />
+	        
+	        <TextView android:id="@+id/post_body" 
+	            android:layout_marginLeft="4dp"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:autoLink="web"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	</RelativeLayout>
+	
+    <!-- horizental line -->
+    <View android:background="#ccc"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+    
+    <LinearLayout
+        android:id="@+id/like_bar" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	 	<TextView android:id="@+id/post_num_likes"
+	 	    android:text="42"
+	 	    android:paddingRight="5dp"
+	 	    android:layout_gravity="center_vertical"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"/>   
+	 	    
+	 	<TextView android:text="people like this"
+	 	    android:layout_gravity="center_vertical"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"/>   	        
+	</LinearLayout>
+ 	
+    <!-- horizental line -->
+    <View android:background="#ccc"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+    
+<!--     <ListView android:id="@+id/post_comments" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent"  -->
+<!--         android:cacheColorHint="#fff" -->
+<!--         android:scrollbarAlwaysDrawVerticalTrack="false" -->
+<!--         /> -->
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/tab_content1"
+        android:background="@drawable/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="this is tab view 1"/>
+
+    <TextView android:id="@+id/tab_content2"
+        android:background="@drawable/red"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="this is tab view 2"/>
+
+    <TextView android:id="@+id/tab_content3"
+        android:background="@drawable/green"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="this is tab view 3"/>
+
+</merge>

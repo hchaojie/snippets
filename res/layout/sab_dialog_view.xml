@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </ScrollView>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#ffcccccc"
+        />
+    
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal" >
+        
+        <cn.hchaojie.util.DialogButton 
+	        android:id="@+id/btn_nagtive"
+            style="?android:attr/actionButtonStyle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+            android:layout_gravity="center"
+            android:addStatesFromChildren="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+	        android:drawableLeft="@drawable/action_reply">
+	        
+	            <Button
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center"
+			        android:layout_margin="4dip"
+			        android:text="OK"
+			        android:drawableLeft="@drawable/action_reply"
+			        android:background="@null"
+			        android:focusable="false"
+			        />
+        </cn.hchaojie.util.DialogButton>
+        
+        <View 
+            android:layout_width="1px"
+            android:id="@+id/btn_divider"
+            android:layout_height="match_parent"
+            android:background="#ffcccccc"
+            />
+        
+        <cn.hchaojie.util.DialogButton 
+            android:id="@+id/btn_positive"
+            style="?android:attr/actionButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:addStatesFromChildren="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingLeft="4dip"
+            android:paddingRight="4dip"
+            >
+            
+                <Button
+                    android:id="@+id/dialog_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="OK"
+                    android:drawableLeft="@drawable/action_reply"
+                    android:layout_margin="4dip"
+                    android:background="@null"
+                    android:focusable="false"
+                    />
+        </cn.hchaojie.util.DialogButton>
+    </LinearLayout>
+</LinearLayout>

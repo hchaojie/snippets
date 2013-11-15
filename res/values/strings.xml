@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">snippets</string>
+    <string name="temp_text">Hoodlllllllllllladfjdafejqkadfaaaj\nnddddddddddda\nddddddddddddddd dddddddddddddddddddd\\n\\\\\\\\nnn\nnnn\nn\nn\nnn\nnn\nn\nn\nn\nn\nn\nn\nnnn\nnnn\nnn\nnn\nnn\nnn\nnn\nnn\nnn\nn\n\nn\n\n\n\n\n\n\n\n\nn\nnnnnnnnnnnnn</string>
+    <string name="dialog_badge_text_1">Shouting out to all of your friends </string>
+    <string name="title_activity_put">PutActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_get">GetActivity</string>
+
+</resources>
