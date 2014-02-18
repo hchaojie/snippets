@@ -13,6 +13,11 @@ import android.os.Bundle;
 import android.os.RemoteException;
 import android.provider.ContactsContract;
 import android.provider.ContactsContract.Data;
+import android.text.Layout;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.style.AlignmentSpan;
+import android.text.style.RelativeSizeSpan;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -52,6 +57,13 @@ public class ContactsDataActivity extends Activity {
                 return false;
             }
         });
+        
+        AlignmentSpan alignmentSpan = new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER);
+        SpannableString text = new SpannableString("Lorem \nipsum dolor sit amet");
+        
+        text.setSpan(alignmentSpan, 0, 5, 0);
+        text.setSpan(new RelativeSizeSpan(2f), 0, 5, 0);
+        mInput.setText(text);
 
         setContentView(mContainer);
 

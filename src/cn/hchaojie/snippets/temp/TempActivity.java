@@ -7,6 +7,8 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.app.Activity;
 import android.app.ActivityGroup;
 import android.content.Context;
@@ -32,7 +34,7 @@ import cn.hchaojie.snippets.R;
 import com.twitter.TwitterLinkify;
 
 public class TempActivity extends Activity {
-
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
